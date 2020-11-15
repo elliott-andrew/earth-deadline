@@ -8,6 +8,21 @@ a {
   color: #00B7FF;
 }
 
+header h1 {
+  font-family: mono45-headline, monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  color: #abdb92;
+  padding-left: 4vh;
+
+}
+
+#hero {
+  background-color: #abdb92;
+  padding: 20vh 0;
+}
+
 .deadline {
   display: flex;
   align-items: center;
@@ -16,20 +31,8 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 4.5vw;
+  color: #010203;
   width: 100em;
-  border: 1px solid white;
-}
-
-.deadline-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: ocr-a-std, monospace;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1vw;
-  width: 100em;
-  border: 1px solid white;
 }
 
 .deadline-colon {
@@ -42,31 +45,35 @@ a {
   font-size: 4.5vw;
 }
 
+.deadline-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+  width: 100em;
+
+}
+
+.deadline-colon-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+  color: #abdb92;
+}
+
 #countdown15 {
   width: 100vw;
   max-width: 90%;
   margin: 0 auto;
 }
 
-#countdown15-label {
-  width: 100vw;
-  max-width: 90%;
-  margin: 0 auto;
-  padding-right: 4.2rem;
+.label {
+  font-size: 1vw;
 }
-
-/* #milliseconds {
-margin-right: .6em;
-margin-left: .4em;
-} */
-
-/* #seconds-label,
-#minutes-label,
-#hours-label,
-#years-label {
-  margin-right: 7.1em;
-}
-
-#hours-label {
-  margin-right: 10em;
-} */
