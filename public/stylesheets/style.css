@@ -1,7 +1,72 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  background-color: #010203;
 }
 
 a {
   color: #00B7FF;
 }
+
+.deadline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+  width: 100em;
+  border: 1px solid white;
+}
+
+.deadline-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  width: 100em;
+  border: 1px solid white;
+}
+
+.deadline-colon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+}
+
+#countdown15 {
+  width: 100vw;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#countdown15-label {
+  width: 100vw;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-right: 4.2rem;
+}
+
+/* #milliseconds {
+margin-right: .6em;
+margin-left: .4em;
+} */
+
+/* #seconds-label,
+#minutes-label,
+#hours-label,
+#years-label {
+  margin-right: 7.1em;
+}
+
+#hours-label {
+  margin-right: 10em;
+} */
