@@ -4,10 +4,6 @@ body {
   background-color: #010203;
 }
 
-a {
-  color: #00B7FF;
-}
-
 .flex {
   align-items: center;
   display: flex;
@@ -15,19 +11,11 @@ a {
   flex-wrap: wrap;
   padding: 1rem 4rem;
 }
-.flex.small {
-  width: 500px;
-}
 
-.f {
-  color: #fff;
-  flex: 0 0 auto;
-  margin: 5px;
-  text-align: center
-}
 .f2 {
   margin-right: auto
 }
+
 .f3 {
   flex-basis: 300px;  
 }
@@ -61,7 +49,7 @@ header li {
 
 #hero {
   background-color: #3ad531;
-  padding: 20vh 0;
+  padding: 20vh 4vw 20vh 0vw;
 }
 
 .deadline {
