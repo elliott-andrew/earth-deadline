@@ -71,7 +71,7 @@ h1::before {
   text-align: center;
   margin: 0;
   padding: 0;
-  line-height: .77em;
+  line-height: .8em;
 
 }
 
@@ -84,12 +84,10 @@ h1::before {
 .time {
   display: flex;
   justify-content: flex-end;
-  margin: 0;
 }
 
 .units {
   width: 80px;
-  margin: 0;
 }
 
 .colon {
