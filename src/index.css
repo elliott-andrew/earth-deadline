@@ -84,10 +84,12 @@ h1::before {
 .time {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
 }
 
 .units {
   width: 80px;
+  margin: 0;
 }
 
 .colon {

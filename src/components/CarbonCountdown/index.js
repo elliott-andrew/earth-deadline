@@ -11,7 +11,7 @@ const CarbonCountdown = () => {
             setTime(() => {
                 return countdown( new Date(2028, 0, 2, countdown.SECONDS))
             })
-        }, 1000)
+        })
     }, [])
 
     let years = time.years
