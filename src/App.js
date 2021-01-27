@@ -2,7 +2,7 @@ import './App.css';
 import countdown from 'countdown';
 
 function App() {
-  let timer = countdown( new Date(2025, 9, 25, countdown.SECONDS) );
+  let timer = countdown( new Date(2028, 1, 2, countdown.SECONDS) );
   console.log(timer)
   let years = timer.years
   let months = timer.months
