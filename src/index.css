@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "xcon";
+  src: url("./fonts/xcon.woff2") format("woff2"),
+       url("./fonts/xcon.woff") format("woff");
+}
+
+@font-face {
+  font-family: "xxcon";
+  src: url("./fonts/xxcon.woff2") format("woff2"),
+       url("./fonts/xxcon.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #070707;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+  color:rgb(255, 251, 251);
+  font-family: "xcon";
+  text-transform: uppercase;
+  font-size: 43.5vh;
+  line-height: .77em;
+  margin: 0 0 -.075em;
+  max-width: 730px; 
+}
+
+h1::before {
+  content: '';
+  display: block;
+  margin: .085em 0;
+}
+
+#earth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 66vh;
+}
+
+#countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(227, 9, 20);
+  flex-grow: 1;
+  align-items: stretch;
+  height: 100%;
+  margin-left: 3vw;
+  padding-right: 3vw;
+}
+
+#countdown p {
+  font-family: 'xxcon';
+  font-size: 30vh;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  line-height: .77em;
+
+}
+
+#countdown p::before {
+  content: '';
+  display: block;
+  margin: .01em 0;
+}
