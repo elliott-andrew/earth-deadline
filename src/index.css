@@ -68,7 +68,7 @@ h1::before {
 #countdown p {
   font-family: 'xxcon';
   font-size: 30vh;
-  text-align: right;
+  text-align: center;
   margin: 0;
   padding: 0;
   line-height: .77em;
@@ -79,4 +79,19 @@ h1::before {
   content: '';
   display: block;
   margin: .01em 0;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.units {
+  width: 80px;
+}
+
+.colon {
+  display: flex;
+  padding: 0;
+  margin:0 10px;
 }
