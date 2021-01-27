@@ -7,3 +7,5 @@ The site currently features a clock counting down to January 2, 2028. The date e
 
 ## Work in progress
 Currently, the site features a clock counting down to the date provided by the Human Impact Lab. Additional data regarding CO2 levels, greenhouse emissions, current air pollution levels, and the global temperature increase to come with future development.
+
+![https://github.com/elliott-andrew/earth-deadline/blob/main/src/Images/EarthDeadlinePreview.png?raw=true](https://github.com/elliott-andrew/earth-deadline/blob/main/src/Images/EarthDeadlinePreview.png?raw=true)
