@@ -16,8 +16,8 @@ function App() {
       <div id="earth">
       <h1>Earth<br/>Deadline</h1>
       <div id="countdown">
-          <p>{years > 10 ? years : "0" + years} : {months > 10 ? months : "0" + months} : {days > 10 ? days : "0" + days}</p>
-          <p>{hours > 10 ? hours : "0" + hours} : {minutes > 10 ? minutes : "0" + minutes} : {seconds > 10 ? seconds : "0" + seconds}</p>
+          <p>{years > 9 ? years : "0" + years} : {months > 9 ? months : "0" + months} : {days > 9 ? days : "0" + days}</p>
+          <p>{hours > 9 ? hours : "0" + hours} : {minutes > 9 ? minutes : "0" + minutes} : {seconds > 9 ? seconds : "0" + seconds}</p>
        </div>
       </div>
     </div>
