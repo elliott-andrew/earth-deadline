@@ -92,6 +92,7 @@ h1::before {
 
 .time {
   display: flex;
+  justify-content: flex-end;
 }
 
 .units {
