@@ -28,6 +28,15 @@ html {
   height: 100%;
 }
 
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.App > div {
+  margin: auto 45px;
+}
+
 h1 {
   color:rgb(255, 251, 251);
   font-family: "xcon";
@@ -83,7 +92,6 @@ h1::before {
 
 .time {
   display: flex;
-  justify-content: flex-end;
 }
 
 .units {
@@ -93,5 +101,94 @@ h1::before {
 .colon {
   display: flex;
   padding: 0;
-  margin:0 10px;
+  margin:0 7px;
+}
+
+@media screen and (max-width:600px) {
+
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.App > div {
+  margin:  60px 20px;
+}
+
+
+  h1 {
+    color:rgb(255, 251, 251);
+    font-family: "xcon";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15vh;
+    line-height: .77em;
+    margin: 0 0 -.075em;
+    max-width: 575px; 
+  }
+  
+  h1::before {
+    content: '';
+    display: block;
+    margin: .085em 0;
+  }
+  
+  #earth {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 66vh;
+    align-items:center;
+  }
+  
+  #countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 9, 20);
+    flex-grow: 0;
+    align-items:center;
+    height: 100%;
+    margin-left: 0;
+    padding-right: 0;
+    margin-top: 50px;
+  }
+  
+  #countdown p {
+    font-family: 'xxcon';
+    font-size: 22vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: .8em;
+  
+  }
+  
+  #countdown p::before {
+    content: '';
+    display: block;
+    margin: .01em 0;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .units {
+    width: 80px;
+  }
+  
+  .first {
+    margin-top: 20vh;
+  }
+  
+  .colon {
+    display: flex;
+    padding: 0;
+    margin:0 7px;
+  }
 }

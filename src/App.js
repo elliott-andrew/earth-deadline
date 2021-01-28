@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div id="earth">
-      <h1>Earth<br/>Deadline</h1>
+      <h1>Earth Deadline</h1>
       <CarbonCountdown />
       </div>
     </div>

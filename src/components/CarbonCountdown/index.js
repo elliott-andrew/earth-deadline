@@ -24,7 +24,7 @@ const CarbonCountdown = () => {
     return(
         <>
         <div id="countdown">
-            <div className="time">
+            <div className="time first">
                 <div className="units">
                 <p>{years > 9 ? years : "0" + years}</p>
                 </div>
